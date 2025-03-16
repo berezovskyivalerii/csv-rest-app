@@ -1,0 +1,4 @@
+port: 8000
+
+#docker run --name postgres-csv -e POSTGRES_PASSWORD=cheapshots12 -e POSTGRES_USER=user -e POSTGRES_DB=csvdatabase -p 5432:5432 -v pgdata:/var/lib/postgresql/data -d postgres
+#docker exec -it postgres-csv psql -U user -d csvdatabase
