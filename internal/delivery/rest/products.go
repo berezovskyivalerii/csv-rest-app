@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strconv"
 	"time"
-	"valeraBerezovskij/csv-rest-app/internal/domain"
+	"berezovskiyvalerii/csv-rest-app/internal/domain"
 	"encoding/csv"
 )
 
@@ -60,7 +60,7 @@ func (h *Handler) getAll(w http.ResponseWriter, r *http.Request) {
 		writer := csv.NewWriter(w)
 		defer writer.Flush()
 
-		err := writer.Write([]string{"ID", "Name", "Price"})
+		err := writer.Write([]string{"Name", "Price"})
 		if err != nil{
 			logError("getAll", err)
 			w.WriteHeader(http.StatusInternalServerError)
@@ -68,7 +68,6 @@ func (h *Handler) getAll(w http.ResponseWriter, r *http.Request) {
 		}
 		for _, product := range products {
 			writer.Write([]string{
-				strconv.FormatInt(product.Id, 10),
 				product.Name,
 				strconv.FormatInt(product.Price, 10),
 			})

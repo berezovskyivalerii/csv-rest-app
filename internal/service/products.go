@@ -2,7 +2,7 @@ package service
 
 import(
 	"context"
-	"valeraBerezovskij/csv-rest-app/internal/domain"
+	"berezovskiyvalerii/csv-rest-app/internal/domain"
 )
 
 type ProductRepository interface {
