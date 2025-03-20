@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"berezovskiyvalerii/csv-rest-app/internal/domain"
-	database "berezovskiyvalerii/csv-rest-app/pkg/db"
+	"berezovskyivalerii/csv-rest-app/internal/domain"
+	database "berezovskyivalerii/csv-rest-app/pkg/db"
 )
 
 type Products struct {

@@ -1,11 +1,11 @@
 package main
 
 import (
-	"berezovskiyvalerii/csv-rest-app/internal/delivery/rest"
-	"berezovskiyvalerii/csv-rest-app/internal/repository"
-	"berezovskiyvalerii/csv-rest-app/internal/server"
-	"berezovskiyvalerii/csv-rest-app/internal/service"
-	"berezovskiyvalerii/csv-rest-app/pkg/db"
+	"berezovskyivalerii/csv-rest-app/internal/delivery/rest"
+	"berezovskyivalerii/csv-rest-app/internal/repository"
+	"berezovskyivalerii/csv-rest-app/internal/server"
+	"berezovskyivalerii/csv-rest-app/internal/service"
+	"berezovskyivalerii/csv-rest-app/pkg/db"
 
 	"context"
 	"os"

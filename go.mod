@@ -1,4 +1,4 @@
-module berezovskiyvalerii/csv-rest-app
+module berezovskyivalerii/csv-rest-app
 
 go 1.23.4
 

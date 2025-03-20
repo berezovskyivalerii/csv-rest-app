@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strconv"
 	"time"
-	"berezovskiyvalerii/csv-rest-app/internal/domain"
+	"berezovskyivalerii/csv-rest-app/internal/domain"
 	"encoding/csv"
 )
 

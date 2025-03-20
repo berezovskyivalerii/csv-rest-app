@@ -3,7 +3,7 @@ package rest
 import (
 	"context"
 	"net/http"
-	"berezovskiyvalerii/csv-rest-app/internal/domain"
+	"berezovskyivalerii/csv-rest-app/internal/domain"
 
 	"github.com/gorilla/mux"
 )
